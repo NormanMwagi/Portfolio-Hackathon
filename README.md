@@ -31,22 +31,15 @@ A personal portfolio website built with **vanilla HTML** and **CSS** to showcase
 1. **Clone the repository**
 
    ```bash
-   git clone [https://github.com/NormanMwagi/Portfolio-Hackathon.git]
+   git clone https://github.com/NormanMwagi/Portfolio-Hackathon.git
    ```
 2. **Navigate to project folder**
 
    ```bash
-   cd portfolio
+   cd Portfolio-Hackathon
    ```
-3. **Open in browser**
 
-   * Double-click `index.html`, or
-   * Serve with a local HTTP server:
-
-     ```bash
-     npx serve .
-     ```
-4. **Customize**
+3. **Customize**
 
    * Update content in `index.html` (name, bio, project links).
    * Modify styles in `styles.css` (colors, fonts, layout).
@@ -58,7 +51,7 @@ portfolio/
 ├── index.html      # Main landing page
 ├── styles.css      # Global stylesheet
 ├── images/         # Profile photo & project screenshots
-├── resume.pdf      # Downloadable resume
+├── NormanMwagiResume.pdf      # Downloadable resume
 └── README.md       # Project documentation
 ```
 
