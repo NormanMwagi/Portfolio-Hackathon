@@ -2,15 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="Mwagi's portfolio showcasing projects and skills.">
-    <meta name="keywords" content="portfolio, projects, skills, Mwagi">
-    <title>Mwagi Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Norman Mwagi | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+
     <header class="heading">
         <h3 class="title">Norman Mwagi</h3>
         <nav class="navigation">
@@ -23,22 +22,339 @@
             </ul>
         </nav>
     </header>
-    <section class="hero">
+
+    <section id="home" class="hero">
         <div class="hero-content">
-            <h3>Hello</h3>
+            <h3>Hello,</h3>
             <h5>I'm Norman</h5>
             <h2>Software Engineer</h2>
             <div class="buttons">
-                <button>Got a project?</button>
-                <button>My Resume</button>
+                <a href="#contact" class="btn-primary">Got a project?</a>
+                <a href="./NormanMwagiResume.pdf" class="btn-outline">My Resume</a>
             </div>
         </div>
         <div class="photo">
-            <img class="passport" src="./images/passport.jpg" alt="Photo of Norman Mwagi">
+            <img class="passport" src="./images/passport.jpg" alt="Norman Mwagi">
+        </div>
+    </section>
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Results-driven Software Developer</h3>
+                <p>
+                    I'm a passionate software developer with experience in designing, developing, and deploying
+                    applications and AI-driven solutions.
+                    With expertise in full-stack development, AI model integration, and process automation, I specialize
+                    in creating scalable,
+                    high-performing applications that optimize business operations.
+                </p>
+                <p>
+                    My journey in software development has been marked by continuous learning and innovation, from
+                    building enterprise-level
+                    web applications to implementing automated workflows that significantly reduce manual efforts and
+                    increase productivity.
+                </p>
+            </div>
+            <div class="achievements">
+                <div class="achievement-card">
+                    <h4>Workflow Optimization</h4>
+                    <p>Increased workflow efficiency by 30% using ASP.NET</p>
+                </div>
+                <div class="achievement-card">
+                    <h4>System Automation</h4>
+                    <p>Implemented 5 automated systems, reducing manual efforts by 40%</p>
+                </div>
+                <div class="achievement-card">
+                    <h4>Process Improvement</h4>
+                    <p>Streamlined visitor access process, decreasing processing time by 50%</p>
+                </div>
+                <div class="achievement-card">
+                    <h4>Data Visualization</h4>
+                    <p>Developed 10+ dashboards leading to 25% faster decision-making</p>
+                </div>
+            </div>
         </div>
     </section>
 
+    <section id="experience" class="section">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-timeline">
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-title">Software Developer Intern</h3>
+                    <h4 class="experience-company">United Nations</h4>
+                    <p class="experience-date">November 2024 - May 2025 | Nairobi, Kenya</p>
+                </div>
+                <ul class="experience-description">
+                    <li>Designed and developed enterprise-level web applications using ASP.NET Core and Web APIs to
+                        streamline internal workflows</li>
+                    <li>Developed a Visitor Booking Application that streamlined the process of managing and granting
+                        visitor access to the UN Complex</li>
+                    <li>Created and deployed AI-powered agents using Microsoft Copilot Studio and Azure AI Foundry</li>
+                    <li>Implemented automated workflows with Microsoft Power Automate to integrate various systems</li>
+                    <li>Developed data visualization dashboards using Power BI and Qlik for data-driven decision making
+                    </li>
+                    <li>Optimized SQL Server database structures to improve application performance and scalability</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-title">IT Support Intern</h3>
+                    <h4 class="experience-company">Hostafrica</h4>
+                    <p class="experience-date">June 2024 - October 2024 | Nairobi, Kenya</p>
+                </div>
+                <ul class="experience-description">
+                    <li>Managed web hosting environments using cPanel, WHM, and DirectAdmin to enhance website security
+                        and performance</li>
+                    <li>Provided technical support to clients, troubleshooting issues related to domain management and
+                        email configurations</li>
+                    <li>Administered Linux-based servers, ensuring smooth and efficient system operations</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-title">Junior Software Developer</h3>
+                    <h4 class="experience-company">Smartcode Technologies</h4>
+                    <p class="experience-date">June 2023 - February 2024 | Nairobi, Kenya</p>
+                </div>
+                <ul class="experience-description">
+                    <li>Developed robust web applications using C# and ASP.NET Core with authentication, authorization,
+                        and CRUD operations</li>
+                    <li>Designed scalable .NET microservices using Docker and Kubernetes, integrating databases via
+                        Entity Framework Core</li>
+                    <li>Created frontend interfaces using React, consuming ASP.NET Core Web APIs with Axios and Fetch
+                        API</li>
+                    <li>Led development of an eHealth system for doctor appointments and complaint management system
+                    </li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-title">Software Developer Intern</h3>
+                    <h4 class="experience-company">Smartcode Technologies</h4>
+                    <p class="experience-date">January 2022 - May 2022 | Nairobi, Kenya</p>
+                </div>
+                <ul class="experience-description">
+                    <li>Built dynamic web applications using ASP.NET Core and C#, ensuring high performance and
+                        maintainability</li>
+                    <li>Designed and optimized SQL Server databases for efficient data management</li>
+                    <li>Developed microservices architecture utilizing .NET Core, Docker, and Kubernetes</li>
+                    <li>Created interactive front-end features using JavaScript, jQuery, and AJAX</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Frontend Development</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">jQuery</span>
+                    <span class="skill-tag">AJAX</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend Development</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">C#</span>
+                    <span class="skill-tag">ASP.NET Core</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">Microservices</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Database & Cloud</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">SQL Server</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">Azure</span>
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Entity Framework</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>DevOps & Tools</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Kubernetes</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">Power BI</span>
+                    <span class="skill-tag">Power Apps</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">UN Visitor Booking Application</h3>
+                    <p class="project-description">
+                        Developed a comprehensive visitor management system for the UN Complex in Gigiri, streamlining
+                        the process of managing and granting visitor access with automated workflows.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">ASP.NET Core</span>
+                        <span class="tech-tag">Web APIs</span>
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">Azure</span>
+                    </div>
+                    <p class="project-impact">Impact: Reduced processing time by 50%</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">AI-Powered Business Automation</h3>
+                    <p class="project-description">
+                        Created and deployed AI-powered agents using Microsoft Copilot Studio and Azure AI Foundry,
+                        leveraging OpenAI's ChatGPT to automate various business processes.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Azure AI</span>
+                        <span class="tech-tag">Copilot Studio</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenAI API</span>
+                    </div>
+                    <p class="project-impact">Impact: Reduced manual efforts by 40%</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">eHealth Management System</h3>
+                    <p class="project-description">
+                        Led development of a comprehensive healthcare management system for doctor appointments,
+                        patient records, and medical consultation scheduling with role-based access control.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">ASP.NET Core</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Entity Framework</span>
+                    </div>
+                    <p class="project-impact">Impact: Improved healthcare service delivery</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Data Visualization Dashboards</h3>
+                    <p class="project-description">
+                        Developed 10+ interactive data visualization dashboards using Power BI and Qlik, enabling
+                        stakeholders to make informed, data-driven decisions across various business units.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">Qlik</span>
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">Data Analytics</span>
+                    </div>
+                    <p class="project-impact">Impact: 25% increase in decision-making speed</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Judicial Complaint Management</h3>
+                    <p class="project-description">
+                        Built a comprehensive case tracking and complaint management system for judicial processes,
+                        featuring automated workflow management and real-time status updates.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">ASP.NET Core</span>
+                        <span class="tech-tag">Microservices</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Kubernetes</span>
+                    </div>
+                    <p class="project-impact">Impact: Streamlined judicial case tracking</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Microservices Architecture</h3>
+                    <p class="project-description">
+                        Designed and implemented scalable microservices architecture using .NET Core, Docker, and
+                        Kubernetes, with database integration via Entity Framework Core and Dapper ORM.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">.NET Core</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Kubernetes</span>
+                        <span class="tech-tag">Microservices</span>
+                    </div>
+                    <p class="project-impact">Impact: Enhanced system scalability and performance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p class="contact-intro">
+                I'm always interested in new opportunities and exciting projects. Whether you have a project in mind,
+                want to collaborate, or just want to say hello, I'd love to hear from you.
+            </p>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:normannyareru@gmail.com">normannyareru@gmail.com</a></p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Location</h3>
+                    <p>Nairobi, Kenya</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/mwagi-norman/" target="_blank">Connect with me</a></p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="form-group
+">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Norman Mwagi. All rights reserved.</p>
+    </footer>
+
+
 </body>
-<script src="script.js"></script>
 
 </html>
